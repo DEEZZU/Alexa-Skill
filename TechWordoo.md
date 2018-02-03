@@ -2,9 +2,9 @@
 
 ----
 
-Type : Knowledge and Reference
-Invocation Name : Tech Wordoo
-Skill Name : The BuzzWord
+* Type : Knowledge and Reference
+* Invocation Name : Tech Wordoo
+* Skill Name : The BuzzWord
 
 ----
 
