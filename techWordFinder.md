@@ -16,3 +16,24 @@ The skill generates a new word (randomly) everytime we ask for it. A new term ad
 that term is presented. 
 
 ----
+
+#### Intent Schema 
+
+```json
+{
+  "intents": [
+    {
+      "intent": "knowWordIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
+```
