@@ -1,3 +1,4 @@
+'''python
 """
 This sample demonstrates a simple skill built with the Amazon Alexa Skills Kit.
 The Intent Schema, Custom Slots, and Sample Utterances for this skill, as well
@@ -205,3 +206,4 @@ def lambda_handler(event, context):
         return on_intent(event['request'], event['session'])
     elif event['request']['type'] == "SessionEndedRequest":
         return on_session_ended(event['request'], event['session'])
+'''
