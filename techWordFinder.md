@@ -37,3 +37,26 @@ that term is presented.
   ]
 }
 ```
+
+----
+
+#### Sample Utterances
+
+```
+knowWordIntent Tell Me a word
+knowWordIntent New Word
+knowWordIntent Tell me something new
+knowWordIntent What's new
+knowWordIntent yes
+knowWordIntent yepp
+knowWordIntent Tell me
+knowWordIntent Tell me a new Tech Term
+knowWordIntent Another
+knowWordIntent more
+knowWordIntent today's word
+knowWordIntent get the word of the day
+AMAZON.HelpIntent Help
+AMAZON.StopIntent Stop
+AMAZON.CancelIntent cancel
+```
+
