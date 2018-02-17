@@ -66,7 +66,15 @@ AMAZON.CancelIntent cancel
 
 The Lambda function is written inpython and hosted on AWS.
 
-[Here is the full code for the same][https://github.com/DEEZZU/ALEXA_SKILL/blob/master/LambdaFunction_TechWordoo.py]
+[Here is the full code for the same](https://github.com/DEEZZU/ALEXA_SKILL/blob/master/LambdaFunction_TechWordoo.py)
 
 _The main Logic of my Lambda function :_
+
+```python
+
+    wordOptionsCleaned = [v for v in wordOptions if v[2] == 0]
+    newWord = random.choice(wordOptions)
+    newWord[2]=1
+
+```
 
